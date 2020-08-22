@@ -1,0 +1,19 @@
+{
+  
+  "manifest_version": 2,
+  "version": "0.1",
+  "name": "Kaggle Vim Keybindings",
+
+  "description": "Enables Vim editing in Kaggle notebooks",
+
+  "author": "Ollin Boer Bohan",
+  "content_scripts": [
+    {
+      "matches": ["https://kkb-production.jupyter-proxy.kaggle.net/*"],
+      "all_frames": true,
+      "js": ["contentscript.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": ["autovim.js", "keymap.vim.js"]
+}

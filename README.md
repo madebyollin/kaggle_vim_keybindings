@@ -1,6 +1,6 @@
 # Kaggle Vim Keybindings
 
-Vim keybindings in the Kaggle notebook editor
+Chrome extension for Vim keybindings in the Kaggle notebook editor
 
 ![](demo.gif)
 
